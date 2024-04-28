@@ -32,6 +32,12 @@ h1{
     background: linear-gradient(to right, #fca48e,#de3340, #da884a);
     font-size: 5vh ;
 }
+h3{
+    text-align: center;
+    color:#fff;
+    
+    font-size: 3vh ;  
+}
 .elements-container{
     height: 76vh;
     aspect-ratio: 1;
@@ -140,7 +146,16 @@ h1{
     height: 0;
     border-left: 3vh solid transparent;
     border-right: 3vh solid transparent;
-    border-bottom: 7vh solid red;
+    border-bottom: 7vh solid #ff0000;
+    transform: translate(calc(cos(340deg)*13.6vh), calc(sin(270deg)*6.5vh));
+    display: none;
+}
+.arrow1{
+    width: 0;
+    height: 0;
+    border-left: 3vh solid transparent;
+    border-right: 3vh solid transparent;
+    border-bottom: 7vh solid green;
     transform: translate(calc(cos(340deg)*13.6vh), calc(sin(270deg)*6.5vh));
     display: none;
 }
